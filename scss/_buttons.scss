@@ -1,0 +1,25 @@
+/*doc
+---
+title: Buttons
+name: buttons
+category: index
+---
+```html_example
+    <div class='btn btn-primary'>Button Primary</div>
+```
+*/
+
+.btn {
+    display: inline-flex;
+    width: auto;
+    line-height: 30px;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 4px;
+
+    &-primary {
+        background-color: blue;
+        color: white;
+    }
+}

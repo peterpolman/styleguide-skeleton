@@ -1,0 +1,46 @@
+{% set _blockNavbar = block('navbar') %}
+{% set _blockJumbotron = block('jumbotron') %}
+
+{# layout.twig #}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name='robots' content='noindex,nofollow' />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <title>{{ title }}</title>
+
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+</head>
+<body class="page-{{ page }} {{ body_classes }}">
+
+    {% if _blockNavbar is not empty %}
+    <nav class="region-navbar" id="collapseNavbar">
+        {{ _blockNavbar|raw }}
+    </nav>
+    {% endif %}
+
+    <main role="main" class="region-main">
+        {% if _blockJumbotron is not empty %}
+        <div class="jumbotron">
+            <div class="container">
+            {{ _blockJumbotron|raw }}
+            </div>
+        </div>
+        {% endif %}
+
+        <article class="region-content container">
+            <div class="row">
+                <div class="col-md-12">
+                    {% block content %}{% endblock %}
+                </div>
+            </div>
+        </article>
+
+    </main>
+
+    {% block bottom %}{%  endblock %}
+
+</body>
+</html>

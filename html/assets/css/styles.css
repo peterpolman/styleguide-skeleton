@@ -1,0 +1,26 @@
+/*doc
+---
+title: Buttons
+name: buttons
+category: index
+---
+```html_example
+    <div class='btn btn-primary'>Button Primary</div>
+```
+*/
+.btn {
+  display: inline-flex;
+  width: auto;
+  line-height: 30px;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+}
+
+.btn-primary {
+  background-color: blue;
+  color: white;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic3R5bGVzLmNzcyIsInNvdXJjZXMiOlsic3R5bGVzLnNjc3MiLCJfYnV0dG9ucy5zY3NzIl0sInNvdXJjZXNDb250ZW50IjpbIkBpbXBvcnQgJ2J1dHRvbnMnOyIsIi8qZG9jXG4tLS1cbnRpdGxlOiBCdXR0b25zXG5uYW1lOiBidXR0b25zXG5jYXRlZ29yeTogaW5kZXhcbi0tLVxuYGBgaHRtbF9leGFtcGxlXG4gICAgPGRpdiBjbGFzcz0nYnRuIGJ0bi1wcmltYXJ5Jz5CdXR0b24gUHJpbWFyeTwvZGl2PlxuYGBgXG4qL1xuXG4uYnRuIHtcbiAgICBkaXNwbGF5OiBpbmxpbmUtZmxleDtcbiAgICB3aWR0aDogYXV0bztcbiAgICBsaW5lLWhlaWdodDogMzBweDtcbiAgICBwYWRkaW5nLWxlZnQ6IC41cmVtO1xuICAgIHBhZGRpbmctcmlnaHQ6IC41cmVtO1xuICAgIGJvcmRlcjogMXB4IHNvbGlkIHJnYmEoMCwwLDAsMC41KTtcbiAgICBib3JkZXItcmFkaXVzOiA0cHg7XG5cbiAgICAmLXByaW1hcnkge1xuICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiBibHVlO1xuICAgICAgICBjb2xvcjogd2hpdGU7XG4gICAgfVxufVxuIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQ0FBOzs7Ozs7Ozs7RUFTRTtBQUVGLEFBQUEsSUFBSSxDQUFDO0VBQ0QsT0FBTyxFQUFFLFdBQVc7RUFDcEIsS0FBSyxFQUFFLElBQUk7RUFDWCxXQUFXLEVBQUUsSUFBSTtFQUNqQixZQUFZLEVBQUUsS0FBSztFQUNuQixhQUFhLEVBQUUsS0FBSztFQUNwQixNQUFNLEVBQUUsR0FBRyxDQUFDLEtBQUssQ0FBQyxrQkFBZTtFQUNqQyxhQUFhLEVBQUUsR0FBRztDQU1yQjs7QUFKSSxBQUFELFlBQVMsQ0FBQztFQUNOLGdCQUFnQixFQUFFLElBQUk7RUFDdEIsS0FBSyxFQUFFLEtBQUs7Q0FDZiJ9 */
